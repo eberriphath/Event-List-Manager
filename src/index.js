@@ -6,7 +6,10 @@ form.addEventListener("submit", function (event) {
   event.preventDefault();
 
   const name = guestNameInput.value.trim();
-  if (!name) return;
+  if (!name) {
+    alert("Please enter a name.");
+    return;
+  }
 
   if (guestList.children.length >= 10) {
     alert("Guest list limit is 10. Cannot add more guests.");
@@ -27,3 +30,4 @@ form.addEventListener("submit", function (event) {
 
   guestNameInput.value = "";
 });
+
