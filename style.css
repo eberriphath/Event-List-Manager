@@ -1,0 +1,25 @@
+.form {
+    height: 80vh;
+    width: 50vw;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.border {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background: linear-gradient(to right, #1e3c72, #f7cac9);
+}
+
